@@ -1,2 +1,5 @@
 # helloworld
-description
+Learning GitHub
+
+Information about myself 
+
