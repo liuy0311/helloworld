@@ -1,0 +1,13 @@
+Purpose: This file is to teach how to use the different Font libraries from http://www.rinkydinkelectronics.com/r_fonts.php#g0 and apply it to LCD screens
+
+Steps:
+-Add all the necessary libraries (UTFT.h, UTouch.h)
+-Download a font style from http://www.rinkydinkelectronics.com/r_fonts.php#g0
+-Add it to the sketch that your current file is in
+-#include "INSERT C FILE FOR THE FONT"
+
+-myGLCD.setFont( INSERT name of C FILE FOR THE FONT);
+
+It should work.
+
+
