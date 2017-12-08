@@ -1,5 +1,6 @@
 # helloworld
 Learning GitHub
 
-Information about myself 
+First Program.
 
+Now I will add things that I slowly teach myself throughout the years
