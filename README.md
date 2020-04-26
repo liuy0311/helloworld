@@ -1,13 +1,12 @@
 # Learning GitHub
-### this repository will be my document to track myself learning github
+### This repository will be my document to track myself learning github
 
-helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
+Helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
 
 
 ## 1. setup SSH Key
-go to the following links to:
+go to the following link to: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 1. set up new SSH key
-  link: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
   1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
   2. Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter] (I put like .ssh/id_git)
   3. Put or skip passphase 
@@ -16,10 +15,10 @@ go to the following links to:
   ssh-add -K ~/.ssh/id_rsa (change 'id_rsa' to whatever it is called that contains your new ssh key)
 3. Add new SSH key
   link: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
-  go to settings --> SSH and GPG keys --> New SSH key --> Paste SSH Key --> save
-
-  $ pbcopy < ~/.ssh/id_rsa.pub (change 'id_rsa.pub' to whatever it is called that contains your new ssh key)
-   Copies the contents of the id_rsa.pub file to your clipboard
+  1. go to settings --> SSH and GPG keys --> New SSH key --> Paste SSH Key --> save
+  2. go to terminal and 
+    pbcopy < ~/.ssh/id_rsa.pub (change 'id_rsa.pub' to whatever it is called that contains your new ssh key)
+    This copies the contents of the id_rsa.pub file to your clipboard
 
 ## 2. Cloning First Repository
 Navigate to the repository you want to clone
