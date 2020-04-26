@@ -1,7 +1,7 @@
 # Learning GitHub
-# this repository will be my document to track myself learning github
+## this repository will be my document to track myself learning github
 
-# helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
+helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
 
 
 # 1. setup SSH Key
@@ -19,9 +19,9 @@ go to the following links to:
   go to settings --> SSH and GPG keys --> New SSH key --> Paste SSH Key --> save
 
   $ pbcopy < ~/.ssh/id_rsa.pub (change 'id_rsa.pub' to whatever it is called that contains your new ssh key)
-  # Copies the contents of the id_rsa.pub file to your clipboard
+   Copies the contents of the id_rsa.pub file to your clipboard
 
-# 2 Cloning First Repository
+# 2. Cloning First Repository
 Navigate to the repository you want to clone
 Click the 'Clone or download' button
 In your terminal:
