@@ -1,10 +1,10 @@
 # Learning GitHub
-## this repository will be my document to track myself learning github
+### this repository will be my document to track myself learning github
 
 helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
 
 
-# 1. setup SSH Key
+## 1. setup SSH Key
 go to the following links to:
 1. set up new SSH key
   link: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -21,14 +21,14 @@ go to the following links to:
   $ pbcopy < ~/.ssh/id_rsa.pub (change 'id_rsa.pub' to whatever it is called that contains your new ssh key)
    Copies the contents of the id_rsa.pub file to your clipboard
 
-# 2. Cloning First Repository
+## 2. Cloning First Repository
 Navigate to the repository you want to clone
 Click the 'Clone or download' button
 In your terminal:
 navigate to the folder you want the repository to appear in (for me it's cd ~Git/Main)
 git clone {clone_URL}  # Replace {clone_URL} with the URL you copied above.
 
-# 3. Working with Git inside cloned repository
+## 3. Working with Git inside cloned repository
 git pull : update your cloned repository with the latest updates from the MAIN online branch
 git add filename
 git rm filename
