@@ -14,8 +14,8 @@ go to the following link to: https://help.github.com/en/github/authenticating-to
 2. Make sure identity file is set up properly
   ssh-add -K ~/.ssh/id_rsa (change 'id_rsa' to whatever it is called that contains your new ssh key)
 3. Add new SSH key
-  link: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
-  a. go to settings --> SSH and GPG keys --> New SSH key --> Paste SSH Key --> save
+  link: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account <br />
+  a. go to settings --> SSH and GPG keys --> New SSH key --> Paste SSH Key --> save <br />
   b. go to terminal and <br />
     pbcopy < ~/.ssh/id_rsa.pub (change 'id_rsa.pub' to whatever it is called that contains your new ssh key)
     This copies the contents of the id_rsa.pub file to your clipboard
