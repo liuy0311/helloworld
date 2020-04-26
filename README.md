@@ -1,9 +1,9 @@
 # Learning GitHub
 ### This repository will be my document to track myself learning github
 
- helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
-Other helpful links: https://guides.github.com/introduction/git-handbook/
-Git cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+ helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/  
+Other helpful links: https://guides.github.com/introduction/git-handbook/  
+Git cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet  
 
 
 ## 1. setup SSH Key
