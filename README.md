@@ -38,10 +38,12 @@ git push : do this to push your changes to the main branch <br />
 git init : create a new repository <br />
 
 ## 4. Git merge issues
-If you run into this issue:  ! [rejected]        master -> master (fetch first). 
+If you run into this issue:  
+! [rejected]        master -> master (fetch first). 
 error: failed to push some refs to 'https://github.com/liuy0311/helloworld.git'.  
 
-solution: 'git add' filename (that was modified). 
+solution:  
+git add filename (that was modified). 
 git commit -m "comment" filename. 
 git push  
 git pull  
@@ -50,10 +52,10 @@ the first part is the stuff that was added
 underneath '======' is the stuff that was there before. 
 
 <<<<<<< HEAD
- helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
-Other helpful links: https://guides.github.com/introduction/git-handbook/
-Git cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
-=======
-Helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/
+This is the result of the local edits to this section of code
+-------
+This is the result of the edits you are trying to merge in
+>>>>>>> other_branch
 
->>>>>>> bb8d1d6b5a2b5f6d2aab4c4d4372a850613feb11
+you can also do:  
+git stash : to put merges to the side and come back to that later
