@@ -39,7 +39,7 @@ git init : create a new repository <br />
 
 ## 4. Git merge issues
 If you run into this issue:  
-! [rejected]        master -> master (fetch first). 
+! [rejected]        master -> master (fetch first).   
 error: failed to push some refs to 'https://github.com/liuy0311/helloworld.git'.  
 
 solution:  
