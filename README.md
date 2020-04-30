@@ -4,6 +4,7 @@
  helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-python-boilerplate/  
 Other helpful links: https://guides.github.com/introduction/git-handbook/  
 Git cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet  
+Youtube tutorial: https://www.youtube.com/watch?v=oFYyTZwMyAg      
 
 
 ## 1. setup SSH Key
