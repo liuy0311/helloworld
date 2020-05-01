@@ -1,0 +1,19 @@
+# This document will describe how to do branching and merging with branches
+
+1. Use 'git branch' to see the branches available
+	- Usually 'master' and any branch that has been created
+2. Use 'git branch newbranchname' to create a new branch
+3. Use 'git checkout branchname' to go into that particular branch
+4. Make your changes then do 'git status' to see your changes
+5. Use 'git add -A" to add all your changes
+6. Use 'git commit -m "comment" ' to commit your changes
+7. Use 'git push' to add your changes to master 
+	Note: may have to use 'git push --set-upstream origin newbranch'
+8. Go to git portal (online) and create a pull request
+9. Make your necessary comments
+10. Have someone review and confirm the merge request
+11. Use 'git pull' to see those new changes (make sure you are in master branch) 
+
+Note: steps 1 and 2 are creating new branches
+      steps 3-7 are when you are editing your changes and want to merge your changes to master branch
+      steps 8-10 are when you confirming merges to master branch
