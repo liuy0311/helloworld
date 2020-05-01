@@ -12,6 +12,7 @@
 8. Go to git portal (online) and create a pull request
 9. Make your necessary comments
 10. Have someone review and confirm the merge request
+        Note: may want to delete the branch if no new changes are needed
 11. Use 'git pull' to see those new changes (make sure you are in master branch) 
 
 Note: steps 1 and 2 are creating new branches
