@@ -5,7 +5,7 @@ helpful link: https://pages.github.ibm.com/jumpstart-developer-labs/fly-tello-py
 Other helpful links: https://guides.github.com/introduction/git-handbook/  
 Git cheatsheet: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet  
 Youtube tutorial: https://www.youtube.com/watch?v=oFYyTZwMyAg      
-hi git
+MD basic syntax: https://www.markdownguide.org/basic-syntax/
 
 ## 1. setup SSH Key
 go to the following link to: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
